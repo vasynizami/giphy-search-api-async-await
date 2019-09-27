@@ -1,0 +1,23 @@
+{
+  "name": "giphy-search-api-async-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/vasynizami/giphy-search-api-async-await.git",
+  "keywords": [],
+  "author": "vasynizami <victoriartz89@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasynizami/giphy-search-api-async-await/issues"
+  },
+  "homepage": "https://github.com/vasynizami/giphy-search-api-async-await#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
