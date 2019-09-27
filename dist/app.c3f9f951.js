@@ -155,7 +155,7 @@ $(function () {
             case 0:
               _context.prev = 0;
               url = 'https://api.giphy.com/v1/gifs/search';
-              apiKey = 'fMI9TfopM0kycP7aWznKC62iGbzY0Pg7'; // API request using .AJAX
+              apiKey = "fMI9TfopM0kycP7aWznKC62iGbzY0Pg7"; // API request using .AJAX
               // $.ajax({
               //   url: url,
               //   type: 'GET',
@@ -248,7 +248,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52767" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57458" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

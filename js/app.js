@@ -29,7 +29,7 @@ $(function () {
   async function search (searchTerm) {
     try {
       const url = 'https://api.giphy.com/v1/gifs/search'
-      const apiKey = 'fMI9TfopM0kycP7aWznKC62iGbzY0Pg7'
+      const apiKey = process.env.GIPHY_API_KEY
 
 // API request using .AJAX
       // $.ajax({
